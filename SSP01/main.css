@@ -1,0 +1,113 @@
+
+/* ============================================================
+   main.css
+   Author: Rogers, Athena
+
+   COLORS
+   Background: #F5F5F5 (light gray)
+   Header: #1B2A6B (navy)
+   Text: #222222 (near-black)
+   Nav buttons: #006B7D (teal)
+   Footer: #E0E0E0 (light gray)
+   Links: #0000EE (standard blue)
+   Visited: #551A8B (purple)
+   Active: #CC0000 (red)
+   ============================================================
+   TYPOGRAPHY
+   Body: 1em Calibri, Tahoma, Verdana, Arial
+   Headers: 2.2em "Times New Roman", Georgia, serif
+   Nav: 0.85em Tahoma, Verdana, Arial
+   ============================================================ */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #222222;
+    font-family: Calibri, Tahoma, Verdana, Arial, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: #1B2A6B;
+    color: #FFFFFF;
+    padding: 1.5em;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 2.2em;
+}
+
+#top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1em;
+    background-color: #E0E0E0;
+}
+
+    #top-nav a {
+        display: inline-block;
+        padding: 0.65em 1em;
+        background-color: #006B7D;
+        color: #FFFFFF;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        font-size: 0.85em;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+        #top-nav a:link {
+            color: #FFFFFF;
+        }
+
+        #top-nav a:visited {
+            color: #FFFFFF;
+        }
+
+        #top-nav a:hover {
+            background-color: #1B2A6B;
+        }
+
+        #top-nav a:active {
+            background-color: #CC0000;
+        }
+
+main {
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: #FFFFFF;
+}
+
+    main p {
+        line-height: 1.6;
+    }
+
+footer {
+    padding: 1em;
+    background-color: #E0E0E0;
+    color: #222222;
+    text-align: center;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+a:link {
+    color: #0000EE;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:active {
+    color: #CC0000;
+}
